@@ -23,7 +23,7 @@ The setup is fully **non-interactive** and optimized for both **desktop** and **
 |---------------------|------------------------------------------------------|
 | **OS**            | Ubuntu 22.04.x (Jammy Jellyfish), Ubuntu 24.04.x (Noble Numbat) |
 | **Kernel**        | 5.15.x (22.04) • 6.8.x (24.04)                        |
-| **GPUs**          | AMD CDNA2 • CDNA3 • RDNA3 • **RDNA4**                 |
+| **GPUs**          | AMD CDNA2 • **CDNA3** • RDNA3 • **RDNA4**                 |
 | **Docker**        | 28.4.0 (stable)                                       |
 | **ROCm**          | 7.0.1                                                |
 | **PyTorch**       | 2.10.0.dev20250922+rocm6.4                             |
