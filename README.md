@@ -1,7 +1,7 @@
 # ROCm 7.0.1 + OpenCL 2.x + PyTorch 2.10.0 (Nightly) + Transformers + Docker Setup for CDNA3 and RDNA4
 
-[![ROCm](https://img.shields.io/badge/ROCm-6.4.3-ff6b6b?logo=amd)](https://rocm.docs.amd.com)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.9.0.dev%2Brocm6.4-ee4c2c?logo=pytorch)](https://pytorch.org)
+[![ROCm](https://img.shields.io/badge/ROCm-7.0.1-ff6b6b?logo=amd)](https://rocm.docs.amd.com)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.10.0.dev%2Brocm6.4-ee4c2c?logo=pytorch)](https://pytorch.org)
 [![Docker](https://img.shields.io/badge/Docker-28.4.0-blue?logo=docker)](https://www.docker.com/)
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04%20%7C%2024.04-e95420?logo=ubuntu)](https://ubuntu.com)
 
@@ -54,7 +54,13 @@ cd rocm-7.0.1-cdna3-rdna4-docker-automated-deployment/
 ```bash
 bash script_module_ROCm_701_Ubuntu_22.04-24.04_pytorch_2100_docker_v1server.sh
 ```
+<img width="859" height="247" alt="{AC0C8418-2C84-46FD-B19E-0A7BC7D21F93}" src="https://github.com/user-attachments/assets/d5946a31-2ca7-406f-8b92-4d5bf23b1504" />
+
 The installation takes ~15 minutes depending on internet speed and hardware performance.
+
+At the end of the script, there will be a summary of important tools, including Docker commands and vLLM images.
+
+<img width="999" height="369" alt="{5BD278F1-340D-4914-A996-653904DF04A8}" src="https://github.com/user-attachments/assets/af55d64d-b1df-4de2-a11f-44a0b64af628" />
 
 ## 🐋 Docker Integration
 
