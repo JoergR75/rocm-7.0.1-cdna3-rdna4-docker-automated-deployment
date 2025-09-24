@@ -54,7 +54,7 @@ cd rocm-7.0.1-cdna3-rdna4-docker-automated-deployment/
 ```bash
 bash script_module_ROCm_701_Ubuntu_22.04-24.04_pytorch_2100_docker_v1server.sh
 ```
-<img width="859" height="247" alt="{AC0C8418-2C84-46FD-B19E-0A7BC7D21F93}" src="https://github.com/user-attachments/assets/d5946a31-2ca7-406f-8b92-4d5bf23b1504" />
+<img width="839" height="292" alt="{42A24E2A-B611-453C-AB1D-D2EA6C2EF499}" src="https://github.com/user-attachments/assets/adaf45db-09a3-404b-9dfb-152b8ea33a2d" />
 
 The installation takes ~15 minutes depending on internet speed and hardware performance.
 
