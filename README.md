@@ -122,7 +122,7 @@ This script creates a simple diagnostic python file (test.py) to verify that PyT
 
 What it does:
 
-- Prints the PyTorch version and ROCm version.
+- Prints the PyTorch-, Pytorch HIP- and base ROCm version.
 - Checks if ROCm is available and how many GPUs are detected.
 - Displays the name of the first GPU (if available).
 - Creates two random 3×3 tensors directly on the GPU (if available).
