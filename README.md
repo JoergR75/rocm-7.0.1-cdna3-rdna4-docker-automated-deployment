@@ -60,7 +60,7 @@ The installation takes ~15 minutes depending on internet speed and hardware perf
 
 At the end of the script, there will be a summary of important tools, including Docker commands and vLLM images.
 
-<img width="999" height="369" alt="{5BD278F1-340D-4914-A996-653904DF04A8}" src="https://github.com/user-attachments/assets/af55d64d-b1df-4de2-a11f-44a0b64af628" />
+<img width="1042" height="354" alt="{EC59E7F5-6CC8-4414-AA26-B1FF88DA20C2}" src="https://github.com/user-attachments/assets/e70aa100-e386-493f-8b62-d360ac3b5885" />
 
 ## 🐋 Docker Integration
 
@@ -135,7 +135,7 @@ python3 test.py
 ```
 Expected Output Example:
 
-<img width="458" height="169" alt="{295484C9-5898-4E8F-AAF3-D6A16491B4F7}" src="https://github.com/user-attachments/assets/6bcc5f08-9a17-4f39-91e1-e83e2144b8d5" />
+<img width="441" height="184" alt="{C0DE1AD9-C60A-45A5-8DD4-E9F05FDA0AB8}" src="https://github.com/user-attachments/assets/fdf9cd45-1c75-489f-b899-724586d69a8f" />
 
 ## 📶 ROCm Bandwidth Test (`rocm-bandwidth-test -a`)
 
