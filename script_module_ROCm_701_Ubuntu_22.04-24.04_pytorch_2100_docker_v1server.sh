@@ -222,9 +222,36 @@ source ~/.bashrc
 cd ~
 cat <<EOF > test.py
 import torch
+import subprocess
 
 print("PyTorch version:", torch.__version__)
-print("ROCm version:", torch.version.hip if hasattr(torch.version, 'hip') else "Not ROCm build")
+
+# Try to detect ROCm base version from system
+def get_rocm_version():
+    try:
+        # 'rocminfo' prints ROCm version in the first few lines
+        output = subprocess.check_output(["rocminfo"], stderr=subprocess.STDOUT, text=True)
+        for line in output.splitlines():
+            if "ROCm" in line and "version" in line:
+                return f"ROCm base version: {line.strip()}"
+    except Exception:
+        pass
+
+    try:
+        # Alternative: check /opt/rocm/.info/version
+        with open("/opt/rocm/.info/version", "r") as f:
+            return f"ROCm base version: {f.read().strip()}"
+    except Exception:
+        return "ROCm base version: Unknown"
+
+print(get_rocm_version())
+
+# HIP version from PyTorch build
+if hasattr(torch.version, "hip") and torch.version.hip is not None:
+    print("PyTorch HIP version:", torch.version.hip)
+else:
+    print("PyTorch HIP version: Not available (CPU build?)")
+
 print("Is ROCm available:", torch.version.hip is not None)
 print("Number of GPUs:", torch.cuda.device_count())
 print("GPU Name:", torch.cuda.get_device_name(0) if torch.cuda.device_count() > 0 else "No GPU detected")
