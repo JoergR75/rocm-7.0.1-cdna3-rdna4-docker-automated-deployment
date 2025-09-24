@@ -1,4 +1,4 @@
-# ROCm 7.0.1 + OpenCL 2.x + PyTorch 2.10.0 (Nightly) + Transformers + Docker Setup
+# ROCm 7.0.1 + OpenCL 2.x + PyTorch 2.10.0 (Nightly) + Transformers + Docker Setup for CDNA3 and RDNA4
 
 [![ROCm](https://img.shields.io/badge/ROCm-6.4.3-ff6b6b?logo=amd)](https://rocm.docs.amd.com)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.9.0.dev%2Brocm6.4-ee4c2c?logo=pytorch)](https://pytorch.org)
